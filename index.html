@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230D9488' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M9 7h6m0 10v-3m-3 3h3m-3-10h.01M9 17h.01M9 14h.01M12 14h.01M15 14h.01M12 17h.01M15 17h.01M9 10h.01M12 10h.01M15 10h.01M5 21h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z' /%3E%3C/svg%3E">
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230D9488' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M9 7h6m0 10v-3m-3 3h3m-3-10h.01M9 17h.01M9 14h.01M12 14h.01M15 14h.01M12 17h.01M15 17h.01M9 10h.01M12 10h.01M15 10h.01M5 21h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z' /%3E%3C/svg%3E"
+    >
+
     <title>Free Online SIP, EMI & GST Calculators | MyCalculatorsHub</title>
     <meta name="description" content="Use free online calculators for SIP, EMI, GST, BMI, Age, and Percentage at MyCalculatorsHub. Simple, accurate, and fast tools for financial and health calculations." />
     <meta name="keywords" content="SIP calculator, EMI calculator, GST calculator, BMI calculator, Age calculator, Percentage calculator, free online calculators, financial tools India" />
     <meta name="author" content="MyCalculatorsHub" />
 
-    <!-- Open Graph for social sharing -->
+    <!-- Open Graph -->
     <meta property="og:title" content="Free Online SIP, EMI & GST Calculators" />
     <meta property="og:description" content="Your one-stop hub for free online SIP, EMI, GST, BMI, and Age calculators." />
     <meta property="og:url" content="https://mycalculatorshub.netlify.app/" />
@@ -22,20 +28,53 @@
     <meta name="twitter:description" content="Use our free calculators for SIP, EMI, GST, BMI, and Age — fast and easy." />
     <meta name="twitter:image" content="https://mycalculatorshub.netlify.app/og-image.png" />
 
-    <!-- Structured data (JSON-LD for organization) -->
+    <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "MyCalculatorsHub",
-      "url": "https://mycalculatorshub.netlify.app",
-      "logo": "https://mycalculatorshub.netlify.app/logo.png",
-      "sameAs": [
-        "https://twitter.com/MyCalculatorsHub",
-        "https://www.facebook.com/MyCalculatorsHub"
-      ]
-    }
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MyCalculatorsHub",
+        "url": "https://mycalculatorshub.netlify.app",
+        "logo": "https://mycalculatorshub.netlify.app/logo.png",
+        "sameAs": [
+          "https://twitter.com/MyCalculatorsHub",
+          "https://www.facebook.com/MyCalculatorsHub"
+        ]
+      }
     </script>
+
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6K2LTSB81R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6K2LTSB81R');
+    </script>
+
+    <!-- Import Map -->
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://aistudiocdn.com/react@^19.2.0",
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5"
+        }
+      }
+    </script>
+
+    <!-- Google AdSense -->
+    <script async 
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7155566552553162"
+      crossorigin="anonymous">
+    </script>
+
+    <!-- PopAds Script -->
+    <script type="text/javascript" data-cfasync="false">
+      (function(){var k=window,g="f3375daa8cc296bc4fd868e367bc3304",y=[["siteId",475+849*139+5137297],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],w=["d3d3LmRpc3BsYXl2ZXJ0aXNpbmcuY29tL255RVovcmxvemFkLm1pbi5qcw==","ZDNtem9rdHk5NTFjNXcuY2xvdWRmcm9udC5uZXQvS3YvT2haL3lmbG9hdGluZy5jc3M="],j=-1,x,t,s=function(){clearTimeout(t);j++;if(w[j]&&!(1789619357000<(new Date).getTime()&&1<j)){x=k.document.createElement("script");x.type="text/javascript";x.async=!0;var h=k.document.getElementsByTagName("script")[0];x.src="https://"+atob(w[j]);x.crossOrigin="anonymous";x.onerror=s;x.onload=function(){clearTimeout(t);k[g.slice(0,16)+g.slice(0,16)]||s()};t=setTimeout(s,5E3);h.parentNode.insertBefore(x,h)}};if(!k[g]){try{Object.freeze(k[g]=y)}catch(e){}s()}})();
+    </script>
+
   </head>
 
   <body class="bg-slate-50">
